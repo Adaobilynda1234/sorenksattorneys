@@ -7,7 +7,7 @@ import {
   DollarSign,
   Shield,
 } from "lucide-react";
-import Teamwork from "../assets/teamwork.png";
+import Teamwork from "../assets/Teamwork.png";
 
 const Service = () => {
   const services = [
