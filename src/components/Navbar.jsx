@@ -30,7 +30,7 @@ const Navbar = () => {
             Home
           </a>
           <a
-            href="#services"
+            href="service"
             className="text-white hover:text-[#FCA311] transition-colors"
           >
             Services
@@ -80,7 +80,7 @@ const Navbar = () => {
               Home
             </a>
             <a
-              href="#services"
+              href="service"
               className="block text-white hover:text-[#FCA311] transition-colors py-2"
               onClick={() => setIsMenuOpen(false)}
             >
