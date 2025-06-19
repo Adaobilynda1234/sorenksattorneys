@@ -23,7 +23,7 @@ const LawyersTeam = () => {
   ];
 
   return (
-    <div className="py-16 px-4 max-w-6xl mx-auto">
+    <div className="py-16 px-4 max-w-6xl mx-auto bg-white text-black">
       {/* Header */}
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold mb-4" style={{ color: "#FCA311" }}>
@@ -36,15 +36,12 @@ const LawyersTeam = () => {
       </div>
 
       {/* Lawyers Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6 mb-8 bg-white text-black">
         {lawyers.map((lawyer, index) => (
           <div key={index} className="relative group">
             {/* Image Container */}
             <div className="relative overflow-hidden rounded-lg shadow-lg h-80 mb-4">
-              <div
-                className="w-full h-full flex items-center justify-center text-white font-semibold text-lg"
-                style={{ backgroundColor: "#14213D" }}
-              >
+              <div className="w-full h-full flex items-center justify-center font-semibold text-lg">
                 {lawyer.image ? (
                   <img
                     src={lawyer.image}
@@ -58,21 +55,13 @@ const LawyersTeam = () => {
 
               {/* Overlay for Horace Thiele (third lawyer) */}
               {index === 2 && (
-                <div
-                  className="absolute inset-0 bg-opacity-80 flex flex-col items-center justify-center"
-                  style={{ backgroundColor: "#14213D" }}
-                >
-                  <h3 className="text-white font-bold text-xl mb-2">
-                    {lawyer.name}
-                  </h3>
+                <div className="absolute inset-0 bg-opacity-80 flex flex-col items-center justify-center">
+                  <h3 className=" font-bold text-xl mb-2">{lawyer.name}</h3>
                   <p className="text-gray-300 mb-4">{lawyer.role}</p>
 
                   {/* Social Icons */}
                   <div className="flex space-x-3">
-                    <div
-                      className="p-2 rounded hover:scale-110 transition-transform cursor-pointer"
-                      style={{ backgroundColor: "#FCA311" }}
-                    >
+                    <div className="p-2 rounded hover:scale-110 transition-transform cursor-pointer">
                       <Phone className="w-4 h-4 text-white" />
                     </div>
                     <div
