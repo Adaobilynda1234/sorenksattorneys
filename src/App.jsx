@@ -2,6 +2,7 @@ import React from "react";
 
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/Herosection";
+import LawyersTeam from "./components/LawyerTeam";
 import Service from "./components/Service";
 import FAQSection from "./components/Faqs";
 import Footer from "./components/Footer";
@@ -12,6 +13,8 @@ function App() {
       <Navbar />
       <HeroSection />
       <Service />
+      <LawyersTeam />
+
       <FAQSection />
       <Footer />
     </div>
