@@ -108,7 +108,11 @@ const Service = () => {
               ensuring your rights are protected and justice is served.
             </h2>
             <button className="bg-[#FCA311] hover:bg-[#e8920f] text-white px-8 py-3 rounded-md font-semibold transition-colors duration-200">
-              See more
+              <a
+                href="#about" // This correctly points to #about
+              >
+                See more
+              </a>
             </button>
           </div>
         </div>

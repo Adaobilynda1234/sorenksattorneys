@@ -24,20 +24,20 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-8">
           <a
-            href="#home"
+            href="#home" // Home is typically the top of the page
             className="text-white hover:text-[#FCA311] transition-colors"
           >
             Home
           </a>
           <a
-            href="service"
+            href="#services" // Changed to #services
             className="text-white hover:text-[#FCA311] transition-colors"
           >
             Services
           </a>
 
           <a
-            href="#about"
+            href="#about" // This correctly points to #about
             className="text-white hover:text-[#FCA311] transition-colors"
           >
             About
@@ -75,7 +75,7 @@ const Navbar = () => {
               Home
             </a>
             <a
-              href="service"
+              href="#services" // Changed to #services
               className="block text-white hover:text-[#FCA311] transition-colors py-2"
               onClick={() => setIsMenuOpen(false)}
             >

@@ -6,18 +6,31 @@ import LawyersTeam from "./components/LawyerTeam";
 import Service from "./components/Service";
 import FAQSection from "./components/Faqs";
 import Footer from "./components/Footer";
-import WhatsAppWidget from "./components/WhatsAppWidget"; // Add this import
+import WhatsAppWidget from "./components/WhatsAppWidget";
 
 function App() {
   return (
     <div className="min-h-screen bg-[#14213D] text-white">
       <Navbar />
-      <HeroSection />
-      <Service />
+      {/* Home Section */}
+      <section id="home">
+        <HeroSection />
+      </section>
+
+      {/* Services Section */}
+      <section id="services">
+        <Service />
+      </section>
+
       <LawyersTeam />
-      <FAQSection />
+
+      {/* About Section (linking to FAQs) */}
+      <section id="about">
+        <FAQSection />
+      </section>
+
       <Footer />
-      <WhatsAppWidget /> {/* Add this component */}
+      <WhatsAppWidget />
     </div>
   );
 }
