@@ -6,6 +6,7 @@ import LawyersTeam from "./components/LawyerTeam";
 import Service from "./components/Service";
 import FAQSection from "./components/Faqs";
 import Footer from "./components/Footer";
+import WhatsAppWidget from "./components/WhatsAppWidget"; // Add this import
 
 function App() {
   return (
@@ -14,9 +15,9 @@ function App() {
       <HeroSection />
       <Service />
       <LawyersTeam />
-
       <FAQSection />
       <Footer />
+      <WhatsAppWidget /> {/* Add this component */}
     </div>
   );
 }
