@@ -1,5 +1,5 @@
 import React from "react";
-import profpic from "../assets/manlawyer.png"; // Assuming you have a profile picture in your assets
+import profpic from "../assets/heropic.png";
 
 const HeroSection = () => {
   const openCalendly = () => {

@@ -35,12 +35,7 @@ const Navbar = () => {
           >
             Services
           </a>
-          <a
-            href="#blog"
-            className="text-white hover:text-[#FCA311] transition-colors"
-          >
-            Blog
-          </a>
+
           <a
             href="#about"
             className="text-white hover:text-[#FCA311] transition-colors"
@@ -86,13 +81,7 @@ const Navbar = () => {
             >
               Services
             </a>
-            <a
-              href="#blog"
-              className="block text-white hover:text-[#FCA311] transition-colors py-2"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Blog
-            </a>
+
             <a
               href="#about"
               className="block text-white hover:text-[#FCA311] transition-colors py-2"

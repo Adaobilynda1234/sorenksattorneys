@@ -9,8 +9,7 @@ const LawyersTeam = () => {
       id: 1,
       name: "Ebuka Udeh Esq",
       title: "Senior Partner/corporate Lawyer",
-      image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop&crop=face",
+      image: "./barrEbuka.png",
       phone: "+2348127350477",
       email: "charlesudeh88@gmail.com",
     },
